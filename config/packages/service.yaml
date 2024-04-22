@@ -1,0 +1,5 @@
+services:
+    App\Controller\blizland:
+        autowire: true
+        autoconfigure: true
+        public: true

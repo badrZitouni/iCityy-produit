@@ -48,3 +48,7 @@ app_login:
 app_logout:
     path: /logout
     controller: App\Controller\CustomSecurityController::logout
+    
+app_blizland:
+  path: /blizland
+  controller: App\Controller\blizland::makeRequest
